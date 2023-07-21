@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap'); /*bold*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+/* *{font-family: 'Montserrat', sans-serif;} */
+*{
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif ;
+}
+
+body{
+    /* background-color: rgb(82, 4, 8); */
+
+   background-color:  #f5f4ee;
+    margin: 0rem;
+}
+h1{
+    font-size: 1.3rem;
+    color: #dbdbdb;
+    text-align: center;
+}
+/* header{
+        background-color: #f5f4ee;
+        position: fixed;
+        width: 100%;
+
+} */
+
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-toggler{
+    margin: 5px;
+}
+.nav-bar{
+    padding: 0%;
+    /* width: 50%; */
+}
+nav{
+    position: fixed;    
+    padding: 0%;
+
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.text-principal{
+    width: auto;
+    /* align-items: start; */
+    display: contents;
+}
+.navbar-brand{
+    /* font-family: 'Cabinet Grotesk', sans-serif; */
+    font-family: 'Lexend', sans-serif;
+    color: #d34b44;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+
+
+.nav-links a{
+    font-family: 'Lexend', sans-serif;/* font-family: 'Cabinet Grotesk', sans-serif; */
+    font-size: .8125rem;
+    /* margin-right: 10px;
+    padding-right: 2rem; */
+    text-transform: uppercase;
+    color: #4d3326;
+    
+}
+.nav-links a:hover{
+    color:  #d34b44;
+}
+
+
+            /* footer */
+.service-footer-container{
+    background-color: rgb(40, 18, 13);
+    color: #dbdbdb;
+}
+.service-footer{
+    display: flex;
+    font-family: 'Roboto', sans-serif;;
+    text-transform: uppercase;
+    font-size: small;
+    color: white;
+    border-top: 2rem;
+    background-color: #d34b44;
+    text-decoration: none;
+    padding: 2rem;
+    /* padding: 1.25rem, 0rem; */
+}
+.service{
+    margin-right: .3125rem;
+    text-align: center;
+    padding: .200rem;
+    /* margin: .9375rem; */
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+.item-service a{
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.item-service{
+    text-align: center;
+    text-decoration: none;
+}
+.item-service a:hover{
+    color: #4d3326;
+}
+.service p{
+    font-size: .690rem;
+}
+/* .service h3{
+    text-align: center;
+} */
+#iconos{
+    
+    display:flex;
+    justify-content: center;
+  
+    gap: 32px;
+    background-color: rgb(40, 18, 13);
+   
+    
+}
+#iconos a{
+    padding: 0rem,.625rem;
+   font-size: 2.5rem;
+}
+.instagram{
+    color: rgb(241, 240, 240);
+}
+#iconos #whatsapp{
+    position: fixed;
+    right: 1.25rem;
+    bottom: 0.90rem;
+    top: auto;
+}
+
+
+                        /* INDEX-MAIN */
+.container-banner{
+    /* margin: 0% !important;
+    padding: 0% !important; */
+   margin-right: 0%;
+   margin-left: 0%;
+}
+
+.container-banner img,div{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-drop{
+    padding: 2rem;
+}
+.tittle-drop{
+    display: flex;
+    justify-content: center;
+    color: #4d3326;
+}
+.tittle-drop span{
+    color:rgb(88, 99, 248) ;
+}
+.tittle-drop i{
+    color: #d34b44;
+}
+.carrousel button{
+    color: #d34b44;
+}
+.drop-img img{
+    width: 100%;
+}
+.descripcion{
+    border-top: #020202 solid;
+}
+.descripcion p{
+    text-align: center;
+    padding: 1rem;
+    color: #4d3326;
+}
+
+/* PRODUCTOS*/
+
+
+.container-hombre img{
+    height: 14rem;
+}
+#cards-info{
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #d34b44;
+}
+
+    .col-cards{
+        display: flex;
+        justify-content: space-around;
+        padding: .125rem;
+        /* justify-content: center; */
+    }
+
+.btn-text{
+    background-color:  #f5f4ee ;
+    color: #d34b44;
+}
+#sub{
+    color: violet;
+}
+.productos{
+    align-items: center;
+
+}
+.container-mujer{
+    margin-bottom: 2rem;
+}
+#cards-mujer{
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #d34b44;
+}
+
+
+
+
+/* FORMULARIO */
+.container-divs{
+    display: flex;
+    justify-content: center;
+    padding: .625rem;
+}
+.col-form{
+    padding: 0rem  2rem;
+}
+.col-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1.25rem; */
+
+}
+.col-map iframe{
+    height: 31rem;
+    width: 50rem;
+}
+.container-info-contact{
+    font-family: 'Lexend', sans-serif;
+    padding: 0 24px;
+    color: #4d3326;
+}
+.content{
+    max-width: 73.125rem;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-contact{
+    text-align: center;
+    font-size: 3rem;
+    color: #4e559b;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 1.25rem 0 rgb(77, 51, 38,.3);
+    
+}
+.contact-wrapper > * {
+    padding: 1rem;
+}
+.contact-form input,
+.contact-form button,
+.contact-form,textarea{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: .0625rem solid #d34b44;
+    color: #4d3326;
+}
+.contact-form form button{
+    background: #d34b44;
+    text-transform: uppercase;
+}
+.contact-form form button:hover,
+.contact-form form button :focus{
+    background: #d34b44;
+    color: #e9e9e1;
+    transition: 0.5s ease-out;
+    outline: none;
+}
+
+/* NOSOTROS */
+.info-about img{
+    width: 20rem;
+}
+.info-nosotros{
+    display: flex;
+    justify-content: center;
+    color: #d34b44;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}
+.info-nosotros:hover{
+    color: #4d3326;
+}
+
+.mision-vision img{
+    margin-top: 2rem;
+    box-shadow: 20px,10px;
+}
+.mision-vision h2{
+    box-shadow:   20px,10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: linear-gradient(45deg,#d34b44,#4d3326); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.info-mision{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.rev-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.rev-arrow i {
+    font-size: 3rem;
+}
+.rev-img img{
+    width: inherit;
+    padding: 3.125rem;
+}
+/* PREGUNTA */
+
+.pregunta{
+    display: block;
+    margin: 1rem;
+}
+.pregunta h3 {
+   color: #4d3326; 
+}
+/* 
+//MEDIA// */
+@media (width < 600px){
+    .container-drop{
+        padding: 0%;
+        margin-top: 2rem;
+    }
+    /* //FOOTER// */
+    .service-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item-service{
+        border-bottom: #d34b44 2px solid;
+    }
+    .item-service p{
+        margin: 0%;
+    }
+
+    /* FORMULARIO */
+
+    .col-map{
+       padding: 1rem;
+    }
+    .col-map iframe{
+        height: 21rem;
+        width: 30rem;
+    }
+}
