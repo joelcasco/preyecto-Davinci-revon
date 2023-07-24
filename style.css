@@ -192,9 +192,9 @@ nav{
 /* PRODUCTOS*/
 
 
-.container-hombre img{
+/* .container-hombre img{
     height: 14rem;
-}
+} */
 #cards-info{
     display: grid;
     justify-content: center;
@@ -221,6 +221,7 @@ nav{
 
 }
 .container-mujer{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 #cards-mujer{
